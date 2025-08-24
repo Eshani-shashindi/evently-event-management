@@ -1,0 +1,106 @@
+/* General page styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+}
+
+/* Table Styles */
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+td {
+    font-size: 20px;
+}
+
+/* General Button Styles */
+input[type="button"], input[type="submit"] {
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    width: 200px;
+    display: block;
+}
+
+/* Specific Styles for "Delete your Profile" (Red) */
+input[name="delete"] {
+    background-color: #ff6666;
+    color: white;
+    
+}
+
+input[name="delete"]:hover {
+    background-color: #b30000;
+}
+
+/* Specific Styles for "View Staff Members" (Blue) */
+input[name="view"] {
+    background-color: #66c2ff;
+    color: white;
+}
+
+input[name="view"]:hover {
+    background-color: #007acc;
+}
+
+input[name="add"] {
+	background-color: #ffad33;
+	color: white;
+}
+input[name="add"]:hover {
+	background-color: #e68a00;
+}
+
+/* Styles for "Edit your Profile" (Green by default) */
+input[name="update"] {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+input[name="update"]:hover {
+    background-color: #45a049;
+}
+
+/* Additional Layout Styles */
+.container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container a {
+    margin: 10px 0;
+}

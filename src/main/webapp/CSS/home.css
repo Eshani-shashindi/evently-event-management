@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background-color:rgba(238, 231, 216, 0.45);
+            margin-top:7%;
+        }
+
+
+
+        nav {
+           
+            padding: 10px 0;
+            background-color:rgba(217, 209, 193, 1);
+        }
+
+        nav a {
+            color: rgb(0, 0, 0);
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            background-color:rgba(229, 205, 158, 0.45);
+            padding: 5px;
+        }
+
+        .hero {
+            background-image: url('../images/background .jpg'); 
+            background-size: cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            position: relative;
+            padding: 20px;
+            margin-top: 0px; 
+        }
+
+        .hero h1 {
+            font-size: 36px;
+        }
+
+        .content {
+            flex: 1;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 20px 10px;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+        
+
+        .about-section, .services-section, .testimonials-section {
+            background-color:rgba(238, 231, 216, 0.45);
+            padding: 40px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-section h2, .testimonials-section h2, .blog-section h2 {
+            color: #333;
+        }
+
+        .services-section ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+            margin-top: 10px;
+        }
+
+        .services-section li {
+            margin: 10px 0;
+        }
+
+        .testimonial {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            display: inline-block;
+            max-width: 300px;
+        }
+
+       
+
+        .contact-form {
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            width: 100%;
+        }
+
+        
